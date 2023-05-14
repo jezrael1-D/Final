@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+header{
+    padding: 30px 20px;
+    background: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    color: yellow;
+    z-index: 1111;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding: 5px 10px;
+    border:none;
+    display: inline-block;
+    transition: all linear 0.5s;
+    margin-right:20px ;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: 500;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+section h1{
+    font-size:4rem;
+    margin-bottom: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color:yellow;
+    text-shadow:5px 10px 5px rgba(218, 204, 204, 0.5);
+}
+section .land .col p{
+    color: yellow;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-right: 40%;
+    margin-left:10% ;
+    font-size: 20px;
+    font-weight: bold;
+    
+    display: flex; 
+    justify-content: left;
+}
+.col{
+    flex-basis: 50%;
+}
+.card{
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-position:center;
+    background-size:cover;
+    transition: transform 0.5s;
+   
+    
+}
+.card1{
+    background-image: url(S6.jpg);
+}
+.card2{
+    background-image: url(S9.jpg);
+}
+.card3{
+    background-image: url(S3.jpg);
+}
+.card4{
+    background-image: url(S4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5 {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 10px 10px 15x black;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 85%;
+    color: yellow;
+}
+.ab p{
+    color: yellow;
+    justify-content: center;
+    margin-left: 10%;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0;
+}
+#about{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('S2.jpg') no-repeat center center/cover;
+}
+#build{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('S2.jpg') no-repeat center center/cover;
+}
+#contact{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('S2.jpg') no-repeat center center/cover;
+}
+.contct p{
+    font-weight: bold;
+    font-size: 40px;
+    color: yellow;
+    
+    text-shadow: 0 5px 5px #999;
+}
+section .contct .containers .icon{
+    
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+   
+}
+.icon{
+    cursor: pointer;
+    display: grid;
+    position: relative;
+    border-radius: 50%;
+    color:var(--color);
+   
+    
+} 
+
+ .social i{
+    
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    border-radius: inherit;
+    border:2px solid #f1f1f1;
+    text-shadow: none;
+    box-shadow: inset -2px -2px 5px #b8b9be,inset 3px 3px 7px #fff, inset 1px 1px #2225,1px 2px 1px #0003;
+    transition: box-shadow 0.22s;
+}
+.social:hover {
+    color: yellow;
+    background-color: black;
+    
+   
+} 
+.active{
+    background: tomato;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 18px;
+}
+.guy .me{
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin-left: 50%;
+    border-radius: 360px;
+    border: 0.3px solid #999;
+    background-color: #999;
+
+}
